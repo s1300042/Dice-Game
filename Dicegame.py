@@ -11,8 +11,8 @@ def main():
         total += d
     print("Total value: {}".format(total))
     if total >= 7:
-        print("You won!")
+        print("{} won!".format(name))
     else :
-        print("You lost!")
+        print("{} lost!".format(name))
 
 main()
