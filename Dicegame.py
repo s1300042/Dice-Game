@@ -1,5 +1,8 @@
 import random
 def main():
+    print("What is your name?")
+    name = input()
+    print("Hello, {}!".format(name))
     print("Rolling dice...")
     total = 0
     for i in range(1,3):
