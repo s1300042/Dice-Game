@@ -7,5 +7,9 @@ def main():
         print("Die {}: {}".format(i, d))
         total += d
     print("Total value: {}".format(total))
+    if total >= 7:
+        print("You won!")
+    else :
+        print("You lost!")
 
 main()
